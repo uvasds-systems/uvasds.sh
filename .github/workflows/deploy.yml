@@ -45,7 +45,7 @@ jobs:
           aws_key_id: ${{ secrets.AWS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
           aws_bucket: 'uvasds.sh'
-          source_dir: './_site'
+          source_dir: '_site'
 
 # aws s3 sync _site s3://uvasds.sh/
 # aws cloudfront create-invalidation --distribution-id E24IRLC86TMAXP --path "/*"
